@@ -1,0 +1,62 @@
+div.elmsh-sourceview {
+  font-family: monospace;
+  white-space: pre;
+  color: #c5c8c6;
+}
+
+div.elmsh-line-odd {
+  background-color: #1d1f21;
+}
+
+div.elmsh-line-odd {
+  background-color: #26282a;
+}
+
+div.elmsh-line-num:before {
+  content: attr(data-elmsh-line-num);
+  display: inline-block;
+  width: 60px;
+  text-align: right;
+  padding: 0 20px 0 0;
+}
+
+span.elmsh-kw {
+  color: #ae7b00;
+}
+
+span.elmsh-id {
+  color: #22bb22;
+}
+
+span.elmsh-type {
+  color: #8abeb7;
+  font-style: italic;
+}
+
+span.elmsh-op {
+  color: #8abeb7;
+}
+
+span.elmsh-com {
+  color: #666666;
+}
+
+span.elmsh-str, span.elmsh-char {
+  color: #cc6666;
+}
+
+span.elmsh-unk {
+  color: #bb2222;
+}
+
+span.elmsh-brak {
+  color: #b294bb;
+}
+
+span.elmsh-spec {
+  color: #f0c674;
+}
+
+textarea.elmsh-line-num {
+  padding-left: 70px;
+}

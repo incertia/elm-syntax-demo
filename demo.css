@@ -1,0 +1,55 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+div.container {
+  display: block;
+  margin: 0 auto;
+}
+
+div.container, div.backdrop, textarea.highlight {
+  width: 45%;
+  height: 30%;
+}
+
+div.backdrop, textarea.highlight {
+  display: block;
+  position: absolute;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+div.backdrop {
+  overflow: auto;
+  z-index: 1;
+  margin: 0;
+  background-color: #1d1f21;
+}
+
+div.display {
+  background-color: transparent;
+  color: #22c;
+}
+
+.highlights {
+  white-space: pre;
+  word-wrap: break-word;
+  color: transparent;
+  padding: 10px;
+}
+
+textarea.highlight {
+  color: transparent;
+  caret-color: #ccc;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  resize: none;
+  padding: 10px;
+  outline: none;
+
+  z-index: 2;
+  overflow: auto;
+  white-space: pre;
+}
